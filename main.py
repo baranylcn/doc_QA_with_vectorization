@@ -10,7 +10,7 @@ def query_with_doc(doc_path, query):
     result = index.query_with_sources(query)
     return result["answer"]
 
-# Example
+# Usage
 doc_path = "DOC_FILE_PATH"
 query = "QUESTION"
 query_with_doc(doc_path, query)
